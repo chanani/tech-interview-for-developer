@@ -52,7 +52,7 @@ JVM 은 Java Virtual Machine 으로 Java를 OS에 독립적으로 실행될 수 
 
 * ### GC
 
-  Heap 영역에 배치된 객체들을 관리하는 모듈입니다. 자세한 동작 원리는 [이곳](<https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Garbage%20Collection.md#garbage-collection>) 에서 확인하실 수 있습니다.
+  Heap 영역에 배치된 객체들을 관리하는 모듈입니다. 자세한 동작 원리는 [이곳](<https://github.com/chanani/tech-interview-for-developer/blob/master/Langueage/JAVA/Garbage%20Collection.md>) 에서 확인하실 수 있습니다.
 
 * #### Runtime Data Area
     

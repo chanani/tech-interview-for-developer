@@ -1,7 +1,5 @@
 # Garbage Collection
 
-*Assembled by GimunLee (2019-10-28)*
-
 <br>
 
 ## Goal
@@ -95,7 +93,7 @@ Y축은 할당된 바이트의 수이고 X축은 바이트가 할당될 때의 �
    
    접근 불가능 상태로 되지 않아 Young 영역에서 살아남은 객체가 여기로 복사됩니다.  대부분 Young 영역보다 크게 할당하며, 크기가 큰 만큼 Young 영역보다 GC는 적게 발생합니다. 이 영역에서 객체가 사라질 때 **Major GC(혹은 Full GC)** 가 발생한다고 말합니다.
 
-3. Permanet 영역
+3. Permanent 영역
    
    Method Area라고도 합니다. JVM이 클래스들과 메소드들을 설명하기 위해 필요한 메타데이터들을 포함하고 있습니다.  JDK8부터는 PermGen은 Metaspace로 교체됩니다.
 
